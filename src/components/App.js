@@ -26,7 +26,6 @@ function App() {
   // if there is no search term, it's just a copy of allPlants array
   const searchedPlants = (allPlants.filter( (plant) => plant.name.toLowerCase().includes(search.toLowerCase())))
   
-  // change 123
 
   return (
     <div className="app">
